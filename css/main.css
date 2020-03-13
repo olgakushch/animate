@@ -1,0 +1,200 @@
+body {
+font-family: 'Open Sans';
+padding: 0;
+margin: 0;
+
+}
+div, p, input, button, form, span, a, ul, li {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: 'Ubuntu';
+}
+p {
+  line-height: 1.6em;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: rgba(77,189,253,1);
+background: -moz-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,253,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfd', endColorstr='#3790d9', GradientType=1 );
+padding-top: 60px;
+color: #fff;
+padding-bottom: 150px;
+}
+.logo {
+
+}
+.offer {
+margin-top: 190px;
+width: 500px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+font-size: 37px;
+}
+.title span {
+  font-size: 59px;
+}
+.intro {
+width: 400px;
+
+}
+.btn {
+  background: #ffd429;
+  color: #000;
+  font-family: 'Ubuntu';
+  display: block;
+  width: 205px;
+  padding: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-family: 'Montserrat';
+  font-weight: 900;
+
+}
+.btn:hover {
+  background: #caa306;
+}
+.desktop {
+  margin-top: 50px;
+  padding: 0;
+}
+.learn {
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+.section-title { text-align: center;
+
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+
+}
+.skill {
+width: 350px;
+  background: url('../img2/time-machine.png') no-repeat top;
+}
+.skill-title {
+padding-top: 115px;
+text-align: center;
+}
+.skill-text {
+  margin-top: 7px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.skill-trip {
+  width: 380px;
+  background: url('../img2/icons-beach.png') no-repeat top;
+}
+.skill-cost {
+background: url('../img2/icons-launch.png') no-repeat top;
+}
+.mail {
+  background: #ecf3f8;
+  padding: 100px 0;
+
+}
+.input {
+  width: 345px;
+  border: 1px solid #bbbbbb;
+  font-size: 15px;
+  height: 47px;
+  padding-left: 25px;
+  display: block;
+  margin-bottom: 10px;
+
+}
+.btn-form {
+  border: 0;
+  cursor: pointer;
+  width: 345px;
+}
+.form {
+  margin-top: 55px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer {
+  background: #164d7a;
+  padding: 33px 0;
+
+}
+.credits {
+color: #fff;
+padding: 0;
+margin: 0;
+font-size: 12px;
+text-align: center;
+}
+/*Responsive*/
+/* 992px-1200px*/
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+/* 768px-992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .offer {
+    width: 100%;
+  }
+  .intro {
+    width: auto;
+  }
+  .desktop {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .skill {
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
+/* 576px-768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .input {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+/* 0px-576px */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
